@@ -68,16 +68,6 @@
             this.buttonJ2 = new System.Windows.Forms.Button();
             this.buttonJ3 = new System.Windows.Forms.Button();
             this.buttonJ4 = new System.Windows.Forms.Button();
-            this.ALabel = new System.Windows.Forms.Label();
-            this.BLabel = new System.Windows.Forms.Label();
-            this.CLabel = new System.Windows.Forms.Label();
-            this.DLabel = new System.Windows.Forms.Label();
-            this.ELabel = new System.Windows.Forms.Label();
-            this.FLabel = new System.Windows.Forms.Label();
-            this.GLabel = new System.Windows.Forms.Label();
-            this.HLabel = new System.Windows.Forms.Label();
-            this.ILabel = new System.Windows.Forms.Label();
-            this.JLabel = new System.Windows.Forms.Label();
             this.guessButton = new System.Windows.Forms.Button();
             this.orangeButton = new System.Windows.Forms.Button();
             this.purpleButton = new System.Windows.Forms.Button();
@@ -86,6 +76,10 @@
             this.yellowButton = new System.Windows.Forms.Button();
             this.pinkButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonA1
@@ -484,96 +478,6 @@
             this.buttonJ4.UseVisualStyleBackColor = true;
             this.buttonJ4.Click += new System.EventHandler(this.button_Click);
             // 
-            // ALabel
-            // 
-            this.ALabel.AutoSize = true;
-            this.ALabel.Location = new System.Drawing.Point(225, 41);
-            this.ALabel.Name = "ALabel";
-            this.ALabel.Size = new System.Drawing.Size(48, 13);
-            this.ALabel.TabIndex = 40;
-            this.ALabel.Text = "O O O O";
-            // 
-            // BLabel
-            // 
-            this.BLabel.AutoSize = true;
-            this.BLabel.Location = new System.Drawing.Point(225, 91);
-            this.BLabel.Name = "BLabel";
-            this.BLabel.Size = new System.Drawing.Size(48, 13);
-            this.BLabel.TabIndex = 41;
-            this.BLabel.Text = "O O O O";
-            // 
-            // CLabel
-            // 
-            this.CLabel.AutoSize = true;
-            this.CLabel.Location = new System.Drawing.Point(225, 141);
-            this.CLabel.Name = "CLabel";
-            this.CLabel.Size = new System.Drawing.Size(48, 13);
-            this.CLabel.TabIndex = 42;
-            this.CLabel.Text = "O O O O";
-            // 
-            // DLabel
-            // 
-            this.DLabel.AutoSize = true;
-            this.DLabel.Location = new System.Drawing.Point(225, 191);
-            this.DLabel.Name = "DLabel";
-            this.DLabel.Size = new System.Drawing.Size(51, 13);
-            this.DLabel.TabIndex = 43;
-            this.DLabel.Text = "O O O O ";
-            // 
-            // ELabel
-            // 
-            this.ELabel.AutoSize = true;
-            this.ELabel.Location = new System.Drawing.Point(225, 241);
-            this.ELabel.Name = "ELabel";
-            this.ELabel.Size = new System.Drawing.Size(48, 13);
-            this.ELabel.TabIndex = 44;
-            this.ELabel.Text = "O O O O";
-            // 
-            // FLabel
-            // 
-            this.FLabel.AutoSize = true;
-            this.FLabel.Location = new System.Drawing.Point(225, 291);
-            this.FLabel.Name = "FLabel";
-            this.FLabel.Size = new System.Drawing.Size(48, 13);
-            this.FLabel.TabIndex = 45;
-            this.FLabel.Text = "O O O O";
-            // 
-            // GLabel
-            // 
-            this.GLabel.AutoSize = true;
-            this.GLabel.Location = new System.Drawing.Point(225, 342);
-            this.GLabel.Name = "GLabel";
-            this.GLabel.Size = new System.Drawing.Size(48, 13);
-            this.GLabel.TabIndex = 46;
-            this.GLabel.Text = "O O O O";
-            // 
-            // HLabel
-            // 
-            this.HLabel.AutoSize = true;
-            this.HLabel.Location = new System.Drawing.Point(225, 391);
-            this.HLabel.Name = "HLabel";
-            this.HLabel.Size = new System.Drawing.Size(48, 13);
-            this.HLabel.TabIndex = 47;
-            this.HLabel.Text = "O O O O";
-            // 
-            // ILabel
-            // 
-            this.ILabel.AutoSize = true;
-            this.ILabel.Location = new System.Drawing.Point(225, 441);
-            this.ILabel.Name = "ILabel";
-            this.ILabel.Size = new System.Drawing.Size(48, 13);
-            this.ILabel.TabIndex = 48;
-            this.ILabel.Text = "O O O O";
-            // 
-            // JLabel
-            // 
-            this.JLabel.AutoSize = true;
-            this.JLabel.Location = new System.Drawing.Point(225, 491);
-            this.JLabel.Name = "JLabel";
-            this.JLabel.Size = new System.Drawing.Size(51, 13);
-            this.JLabel.TabIndex = 49;
-            this.JLabel.Text = "O O O O ";
-            // 
             // guessButton
             // 
             this.guessButton.Location = new System.Drawing.Point(33, 523);
@@ -647,17 +551,56 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(660, 495);
+            this.label1.Location = new System.Drawing.Point(628, 223);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(15, 13);
             this.label1.TabIndex = 57;
-            this.label1.Text = "label1";
+            this.label1.Text = "O";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(226, 47);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(17, 17);
+            this.button1.TabIndex = 58;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(209, 47);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(17, 17);
+            this.button2.TabIndex = 59;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(226, 30);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(17, 17);
+            this.button3.TabIndex = 60;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(209, 30);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(17, 17);
+            this.button4.TabIndex = 61;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(979, 560);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pinkButton);
             this.Controls.Add(this.yellowButton);
@@ -666,16 +609,6 @@
             this.Controls.Add(this.purpleButton);
             this.Controls.Add(this.orangeButton);
             this.Controls.Add(this.guessButton);
-            this.Controls.Add(this.JLabel);
-            this.Controls.Add(this.ILabel);
-            this.Controls.Add(this.HLabel);
-            this.Controls.Add(this.GLabel);
-            this.Controls.Add(this.FLabel);
-            this.Controls.Add(this.ELabel);
-            this.Controls.Add(this.DLabel);
-            this.Controls.Add(this.CLabel);
-            this.Controls.Add(this.BLabel);
-            this.Controls.Add(this.ALabel);
             this.Controls.Add(this.buttonI1);
             this.Controls.Add(this.buttonI2);
             this.Controls.Add(this.buttonI3);
@@ -765,16 +698,6 @@
         private System.Windows.Forms.Button buttonJ2;
         private System.Windows.Forms.Button buttonJ3;
         private System.Windows.Forms.Button buttonJ4;
-        private System.Windows.Forms.Label ALabel;
-        private System.Windows.Forms.Label BLabel;
-        private System.Windows.Forms.Label CLabel;
-        private System.Windows.Forms.Label DLabel;
-        private System.Windows.Forms.Label ELabel;
-        private System.Windows.Forms.Label FLabel;
-        private System.Windows.Forms.Label GLabel;
-        private System.Windows.Forms.Label HLabel;
-        private System.Windows.Forms.Label ILabel;
-        private System.Windows.Forms.Label JLabel;
         private System.Windows.Forms.Button guessButton;
         private System.Windows.Forms.Button orangeButton;
         private System.Windows.Forms.Button purpleButton;
@@ -783,6 +706,10 @@
         private System.Windows.Forms.Button yellowButton;
         private System.Windows.Forms.Button pinkButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 
