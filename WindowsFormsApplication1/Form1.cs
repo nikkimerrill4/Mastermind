@@ -15,7 +15,8 @@ namespace WindowsFormsApplication1
         int[] key = new int[4];
         int turn = 1;
         Color color;
-        Button[,] gameboard = new Button[10, 4]; 
+        Button[,] gameboard = new Button[10, 4];
+        Label[,] results = new Label[10, 4]; 
 
         public Form1()
         {
@@ -66,6 +67,48 @@ namespace WindowsFormsApplication1
             gameboard[9, 1] = buttonJ2;
             gameboard[9, 2] = buttonJ3;
             gameboard[9, 3] = buttonJ4;
+
+            results[0, 0] = a1;
+            results[0, 1] = a2;
+            results[0, 2] = a3;
+            results[0, 3] = a4;
+            results[1, 0] = b1;
+            results[1, 1] = b2;
+            results[1, 2] = b3;
+            results[1, 3] = b4;
+            results[2, 0] = c1;
+            results[2, 1] = c2;
+            results[2, 2] = c3;
+            results[2, 3] = c4;
+            results[3, 0] = d1;
+            results[3, 1] = d2;
+            results[3, 2] = d3;
+            results[3, 3] = d4;
+            results[4, 0] = e1;
+            results[4, 1] = e2;
+            results[4, 2] = e3;
+            results[4, 3] = e4;
+            results[5, 0] = f1;
+            results[5, 1] = f2;
+            results[5, 2] = f3;
+            results[5, 3] = f4;
+            results[6, 0] = g1;
+            results[6, 1] = g2;
+            results[6, 2] = g3;
+            results[6, 3] = g4;
+            results[7, 0] = h1;
+            results[7, 1] = h2;
+            results[7, 2] = h3;
+            results[7, 3] = h4;
+            results[8, 0] = i1;
+            results[8, 1] = i2;
+            results[8, 2] = i3;
+            results[8, 3] = i4;
+            results[9, 0] = j1;
+            results[9, 1] = j2;
+            results[9, 2] = j3;
+            results[9, 3] = j4;
+
         }
 
         private void GenerateKey()
@@ -90,7 +133,7 @@ namespace WindowsFormsApplication1
 
         private void guessButton_Click(object sender, EventArgs e)
         {
-            //if row is not fill, do nothing
+            //if row is not full, do nothing
             if (full())
             {
                 //Disable current line
@@ -134,26 +177,42 @@ namespace WindowsFormsApplication1
                             }
                             
                         }
-                    }
-                    
-               
+                        
+                    }             
                    
                 }
-                String label = "";
-                for (int i = 1; i <= numReds; i++ )
+
+                // Display results
+                int k;
+                for (k = 0; k < numReds; k++)
                 {
-                    label = label + 'O'
+                    results[turn - 1, k].BackColor = Color.Red;
+                }
+                for (;  k < numReds + numWhts; k++)
+                {
+                    results[turn - 1, k].BackColor = Color.White;
                 }
 
-                    //if win display win
+                //if win display win
+                if (numReds == 4)
+                {
+                    MessageBox.Show("You Win!");
+                    return;
 
-                    //else display results
+                }
+                //if on 10th turn display lose
+                if (turn == 10)
+                {
+                    MessageBox.Show("You Lose :( ");
+                    return;
 
-                    //enable next line
-                    for (int i = 0; i < 4; i++)
-                    {
-                        gameboard[turn, i].Enabled = true;
-                    }
+                }
+
+                //enable next line
+                for (int i = 0; i < 4; i++)
+                {
+                    gameboard[turn, i].Enabled = true;
+                }
 
                 //advance to next turn
                 turn++;
@@ -202,21 +261,6 @@ namespace WindowsFormsApplication1
                 return 6;
             }
             return -1;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 

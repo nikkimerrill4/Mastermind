@@ -75,11 +75,46 @@
             this.whiteButton = new System.Windows.Forms.Button();
             this.yellowButton = new System.Windows.Forms.Button();
             this.pinkButton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.a1 = new System.Windows.Forms.Label();
+            this.a2 = new System.Windows.Forms.Label();
+            this.a4 = new System.Windows.Forms.Label();
+            this.a3 = new System.Windows.Forms.Label();
+            this.b4 = new System.Windows.Forms.Label();
+            this.b3 = new System.Windows.Forms.Label();
+            this.b2 = new System.Windows.Forms.Label();
+            this.b1 = new System.Windows.Forms.Label();
+            this.c4 = new System.Windows.Forms.Label();
+            this.c3 = new System.Windows.Forms.Label();
+            this.c2 = new System.Windows.Forms.Label();
+            this.c1 = new System.Windows.Forms.Label();
+            this.d4 = new System.Windows.Forms.Label();
+            this.d3 = new System.Windows.Forms.Label();
+            this.d2 = new System.Windows.Forms.Label();
+            this.d1 = new System.Windows.Forms.Label();
+            this.e4 = new System.Windows.Forms.Label();
+            this.e3 = new System.Windows.Forms.Label();
+            this.e2 = new System.Windows.Forms.Label();
+            this.e1 = new System.Windows.Forms.Label();
+            this.f4 = new System.Windows.Forms.Label();
+            this.f3 = new System.Windows.Forms.Label();
+            this.f2 = new System.Windows.Forms.Label();
+            this.f1 = new System.Windows.Forms.Label();
+            this.g4 = new System.Windows.Forms.Label();
+            this.g3 = new System.Windows.Forms.Label();
+            this.g2 = new System.Windows.Forms.Label();
+            this.g1 = new System.Windows.Forms.Label();
+            this.h4 = new System.Windows.Forms.Label();
+            this.h3 = new System.Windows.Forms.Label();
+            this.h2 = new System.Windows.Forms.Label();
+            this.h1 = new System.Windows.Forms.Label();
+            this.i4 = new System.Windows.Forms.Label();
+            this.i3 = new System.Windows.Forms.Label();
+            this.i2 = new System.Windows.Forms.Label();
+            this.i1 = new System.Windows.Forms.Label();
+            this.j4 = new System.Windows.Forms.Label();
+            this.j3 = new System.Windows.Forms.Label();
+            this.j2 = new System.Windows.Forms.Label();
+            this.j1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonA1
@@ -548,60 +583,411 @@
             this.pinkButton.UseVisualStyleBackColor = false;
             this.pinkButton.Click += new System.EventHandler(this.colorButton_Click);
             // 
-            // label1
+            // a1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(628, 223);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 13);
-            this.label1.TabIndex = 57;
-            this.label1.Text = "O";
+            this.a1.BackColor = System.Drawing.SystemColors.Control;
+            this.a1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.a1.Location = new System.Drawing.Point(220, 30);
+            this.a1.Name = "a1";
+            this.a1.Size = new System.Drawing.Size(15, 15);
+            this.a1.TabIndex = 58;
             // 
-            // button1
+            // a2
             // 
-            this.button1.Location = new System.Drawing.Point(226, 47);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(17, 17);
-            this.button1.TabIndex = 58;
-            this.button1.UseVisualStyleBackColor = true;
+            this.a2.BackColor = System.Drawing.SystemColors.Control;
+            this.a2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.a2.Location = new System.Drawing.Point(237, 30);
+            this.a2.Name = "a2";
+            this.a2.Size = new System.Drawing.Size(15, 15);
+            this.a2.TabIndex = 59;
             // 
-            // button2
+            // a4
             // 
-            this.button2.Location = new System.Drawing.Point(209, 47);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(17, 17);
-            this.button2.TabIndex = 59;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.a4.BackColor = System.Drawing.SystemColors.Control;
+            this.a4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.a4.Location = new System.Drawing.Point(237, 47);
+            this.a4.Name = "a4";
+            this.a4.Size = new System.Drawing.Size(15, 15);
+            this.a4.TabIndex = 61;
             // 
-            // button3
+            // a3
             // 
-            this.button3.Location = new System.Drawing.Point(226, 30);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(17, 17);
-            this.button3.TabIndex = 60;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.a3.BackColor = System.Drawing.SystemColors.Control;
+            this.a3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.a3.Location = new System.Drawing.Point(220, 47);
+            this.a3.Name = "a3";
+            this.a3.Size = new System.Drawing.Size(15, 15);
+            this.a3.TabIndex = 60;
             // 
-            // button4
+            // b4
             // 
-            this.button4.Location = new System.Drawing.Point(209, 30);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(17, 17);
-            this.button4.TabIndex = 61;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.b4.BackColor = System.Drawing.SystemColors.Control;
+            this.b4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.b4.Location = new System.Drawing.Point(237, 97);
+            this.b4.Name = "b4";
+            this.b4.Size = new System.Drawing.Size(15, 15);
+            this.b4.TabIndex = 65;
+            // 
+            // b3
+            // 
+            this.b3.BackColor = System.Drawing.SystemColors.Control;
+            this.b3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.b3.Location = new System.Drawing.Point(220, 97);
+            this.b3.Name = "b3";
+            this.b3.Size = new System.Drawing.Size(15, 15);
+            this.b3.TabIndex = 64;
+            // 
+            // b2
+            // 
+            this.b2.BackColor = System.Drawing.SystemColors.Control;
+            this.b2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.b2.Location = new System.Drawing.Point(237, 80);
+            this.b2.Name = "b2";
+            this.b2.Size = new System.Drawing.Size(15, 15);
+            this.b2.TabIndex = 63;
+            // 
+            // b1
+            // 
+            this.b1.BackColor = System.Drawing.SystemColors.Control;
+            this.b1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.b1.Location = new System.Drawing.Point(220, 80);
+            this.b1.Name = "b1";
+            this.b1.Size = new System.Drawing.Size(15, 15);
+            this.b1.TabIndex = 62;
+            // 
+            // c4
+            // 
+            this.c4.BackColor = System.Drawing.SystemColors.Control;
+            this.c4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.c4.Location = new System.Drawing.Point(237, 150);
+            this.c4.Name = "c4";
+            this.c4.Size = new System.Drawing.Size(15, 15);
+            this.c4.TabIndex = 69;
+            // 
+            // c3
+            // 
+            this.c3.BackColor = System.Drawing.SystemColors.Control;
+            this.c3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.c3.Location = new System.Drawing.Point(220, 150);
+            this.c3.Name = "c3";
+            this.c3.Size = new System.Drawing.Size(15, 15);
+            this.c3.TabIndex = 68;
+            // 
+            // c2
+            // 
+            this.c2.BackColor = System.Drawing.SystemColors.Control;
+            this.c2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.c2.Location = new System.Drawing.Point(237, 133);
+            this.c2.Name = "c2";
+            this.c2.Size = new System.Drawing.Size(15, 15);
+            this.c2.TabIndex = 67;
+            // 
+            // c1
+            // 
+            this.c1.BackColor = System.Drawing.SystemColors.Control;
+            this.c1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.c1.Location = new System.Drawing.Point(220, 133);
+            this.c1.Name = "c1";
+            this.c1.Size = new System.Drawing.Size(15, 15);
+            this.c1.TabIndex = 66;
+            // 
+            // d4
+            // 
+            this.d4.BackColor = System.Drawing.SystemColors.Control;
+            this.d4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.d4.Location = new System.Drawing.Point(237, 197);
+            this.d4.Name = "d4";
+            this.d4.Size = new System.Drawing.Size(15, 15);
+            this.d4.TabIndex = 73;
+            // 
+            // d3
+            // 
+            this.d3.BackColor = System.Drawing.SystemColors.Control;
+            this.d3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.d3.Location = new System.Drawing.Point(220, 197);
+            this.d3.Name = "d3";
+            this.d3.Size = new System.Drawing.Size(15, 15);
+            this.d3.TabIndex = 72;
+            // 
+            // d2
+            // 
+            this.d2.BackColor = System.Drawing.SystemColors.Control;
+            this.d2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.d2.Location = new System.Drawing.Point(237, 180);
+            this.d2.Name = "d2";
+            this.d2.Size = new System.Drawing.Size(15, 15);
+            this.d2.TabIndex = 71;
+            // 
+            // d1
+            // 
+            this.d1.BackColor = System.Drawing.SystemColors.Control;
+            this.d1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.d1.Location = new System.Drawing.Point(220, 180);
+            this.d1.Name = "d1";
+            this.d1.Size = new System.Drawing.Size(15, 15);
+            this.d1.TabIndex = 70;
+            // 
+            // e4
+            // 
+            this.e4.BackColor = System.Drawing.SystemColors.Control;
+            this.e4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e4.Location = new System.Drawing.Point(237, 247);
+            this.e4.Name = "e4";
+            this.e4.Size = new System.Drawing.Size(15, 15);
+            this.e4.TabIndex = 77;
+            // 
+            // e3
+            // 
+            this.e3.BackColor = System.Drawing.SystemColors.Control;
+            this.e3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e3.Location = new System.Drawing.Point(220, 247);
+            this.e3.Name = "e3";
+            this.e3.Size = new System.Drawing.Size(15, 15);
+            this.e3.TabIndex = 76;
+            // 
+            // e2
+            // 
+            this.e2.BackColor = System.Drawing.SystemColors.Control;
+            this.e2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e2.Location = new System.Drawing.Point(237, 230);
+            this.e2.Name = "e2";
+            this.e2.Size = new System.Drawing.Size(15, 15);
+            this.e2.TabIndex = 75;
+            // 
+            // e1
+            // 
+            this.e1.BackColor = System.Drawing.SystemColors.Control;
+            this.e1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.e1.Location = new System.Drawing.Point(220, 230);
+            this.e1.Name = "e1";
+            this.e1.Size = new System.Drawing.Size(15, 15);
+            this.e1.TabIndex = 74;
+            // 
+            // f4
+            // 
+            this.f4.BackColor = System.Drawing.SystemColors.Control;
+            this.f4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.f4.Location = new System.Drawing.Point(237, 297);
+            this.f4.Name = "f4";
+            this.f4.Size = new System.Drawing.Size(15, 15);
+            this.f4.TabIndex = 81;
+            // 
+            // f3
+            // 
+            this.f3.BackColor = System.Drawing.SystemColors.Control;
+            this.f3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.f3.Location = new System.Drawing.Point(220, 297);
+            this.f3.Name = "f3";
+            this.f3.Size = new System.Drawing.Size(15, 15);
+            this.f3.TabIndex = 80;
+            // 
+            // f2
+            // 
+            this.f2.BackColor = System.Drawing.SystemColors.Control;
+            this.f2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.f2.Location = new System.Drawing.Point(237, 280);
+            this.f2.Name = "f2";
+            this.f2.Size = new System.Drawing.Size(15, 15);
+            this.f2.TabIndex = 79;
+            // 
+            // f1
+            // 
+            this.f1.BackColor = System.Drawing.SystemColors.Control;
+            this.f1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.f1.Location = new System.Drawing.Point(220, 280);
+            this.f1.Name = "f1";
+            this.f1.Size = new System.Drawing.Size(15, 15);
+            this.f1.TabIndex = 78;
+            // 
+            // g4
+            // 
+            this.g4.BackColor = System.Drawing.SystemColors.Control;
+            this.g4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.g4.Location = new System.Drawing.Point(237, 348);
+            this.g4.Name = "g4";
+            this.g4.Size = new System.Drawing.Size(15, 15);
+            this.g4.TabIndex = 85;
+            // 
+            // g3
+            // 
+            this.g3.BackColor = System.Drawing.SystemColors.Control;
+            this.g3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.g3.Location = new System.Drawing.Point(220, 348);
+            this.g3.Name = "g3";
+            this.g3.Size = new System.Drawing.Size(15, 15);
+            this.g3.TabIndex = 84;
+            // 
+            // g2
+            // 
+            this.g2.BackColor = System.Drawing.SystemColors.Control;
+            this.g2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.g2.Location = new System.Drawing.Point(237, 331);
+            this.g2.Name = "g2";
+            this.g2.Size = new System.Drawing.Size(15, 15);
+            this.g2.TabIndex = 83;
+            // 
+            // g1
+            // 
+            this.g1.BackColor = System.Drawing.SystemColors.Control;
+            this.g1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.g1.Location = new System.Drawing.Point(220, 331);
+            this.g1.Name = "g1";
+            this.g1.Size = new System.Drawing.Size(15, 15);
+            this.g1.TabIndex = 82;
+            // 
+            // h4
+            // 
+            this.h4.BackColor = System.Drawing.SystemColors.Control;
+            this.h4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.h4.Location = new System.Drawing.Point(237, 397);
+            this.h4.Name = "h4";
+            this.h4.Size = new System.Drawing.Size(15, 15);
+            this.h4.TabIndex = 89;
+            // 
+            // h3
+            // 
+            this.h3.BackColor = System.Drawing.SystemColors.Control;
+            this.h3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.h3.Location = new System.Drawing.Point(220, 397);
+            this.h3.Name = "h3";
+            this.h3.Size = new System.Drawing.Size(15, 15);
+            this.h3.TabIndex = 88;
+            // 
+            // h2
+            // 
+            this.h2.BackColor = System.Drawing.SystemColors.Control;
+            this.h2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.h2.Location = new System.Drawing.Point(237, 380);
+            this.h2.Name = "h2";
+            this.h2.Size = new System.Drawing.Size(15, 15);
+            this.h2.TabIndex = 87;
+            // 
+            // h1
+            // 
+            this.h1.BackColor = System.Drawing.SystemColors.Control;
+            this.h1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.h1.Location = new System.Drawing.Point(220, 380);
+            this.h1.Name = "h1";
+            this.h1.Size = new System.Drawing.Size(15, 15);
+            this.h1.TabIndex = 86;
+            // 
+            // i4
+            // 
+            this.i4.BackColor = System.Drawing.SystemColors.Control;
+            this.i4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.i4.Location = new System.Drawing.Point(237, 447);
+            this.i4.Name = "i4";
+            this.i4.Size = new System.Drawing.Size(15, 15);
+            this.i4.TabIndex = 93;
+            // 
+            // i3
+            // 
+            this.i3.BackColor = System.Drawing.SystemColors.Control;
+            this.i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.i3.Location = new System.Drawing.Point(220, 447);
+            this.i3.Name = "i3";
+            this.i3.Size = new System.Drawing.Size(15, 15);
+            this.i3.TabIndex = 92;
+            // 
+            // i2
+            // 
+            this.i2.BackColor = System.Drawing.SystemColors.Control;
+            this.i2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.i2.Location = new System.Drawing.Point(237, 430);
+            this.i2.Name = "i2";
+            this.i2.Size = new System.Drawing.Size(15, 15);
+            this.i2.TabIndex = 91;
+            // 
+            // i1
+            // 
+            this.i1.BackColor = System.Drawing.SystemColors.Control;
+            this.i1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.i1.Location = new System.Drawing.Point(220, 430);
+            this.i1.Name = "i1";
+            this.i1.Size = new System.Drawing.Size(15, 15);
+            this.i1.TabIndex = 90;
+            // 
+            // j4
+            // 
+            this.j4.BackColor = System.Drawing.SystemColors.Control;
+            this.j4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.j4.Location = new System.Drawing.Point(237, 497);
+            this.j4.Name = "j4";
+            this.j4.Size = new System.Drawing.Size(15, 15);
+            this.j4.TabIndex = 97;
+            // 
+            // j3
+            // 
+            this.j3.BackColor = System.Drawing.SystemColors.Control;
+            this.j3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.j3.Location = new System.Drawing.Point(220, 497);
+            this.j3.Name = "j3";
+            this.j3.Size = new System.Drawing.Size(15, 15);
+            this.j3.TabIndex = 96;
+            // 
+            // j2
+            // 
+            this.j2.BackColor = System.Drawing.SystemColors.Control;
+            this.j2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.j2.Location = new System.Drawing.Point(237, 480);
+            this.j2.Name = "j2";
+            this.j2.Size = new System.Drawing.Size(15, 15);
+            this.j2.TabIndex = 95;
+            // 
+            // j1
+            // 
+            this.j1.BackColor = System.Drawing.SystemColors.Control;
+            this.j1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.j1.Location = new System.Drawing.Point(220, 480);
+            this.j1.Name = "j1";
+            this.j1.Size = new System.Drawing.Size(15, 15);
+            this.j1.TabIndex = 94;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 560);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(452, 570);
+            this.Controls.Add(this.j4);
+            this.Controls.Add(this.j3);
+            this.Controls.Add(this.j2);
+            this.Controls.Add(this.j1);
+            this.Controls.Add(this.i4);
+            this.Controls.Add(this.i3);
+            this.Controls.Add(this.i2);
+            this.Controls.Add(this.i1);
+            this.Controls.Add(this.h4);
+            this.Controls.Add(this.h3);
+            this.Controls.Add(this.h2);
+            this.Controls.Add(this.h1);
+            this.Controls.Add(this.g4);
+            this.Controls.Add(this.g3);
+            this.Controls.Add(this.g2);
+            this.Controls.Add(this.g1);
+            this.Controls.Add(this.f4);
+            this.Controls.Add(this.f3);
+            this.Controls.Add(this.f2);
+            this.Controls.Add(this.f1);
+            this.Controls.Add(this.e4);
+            this.Controls.Add(this.e3);
+            this.Controls.Add(this.e2);
+            this.Controls.Add(this.e1);
+            this.Controls.Add(this.d4);
+            this.Controls.Add(this.d3);
+            this.Controls.Add(this.d2);
+            this.Controls.Add(this.d1);
+            this.Controls.Add(this.c4);
+            this.Controls.Add(this.c3);
+            this.Controls.Add(this.c2);
+            this.Controls.Add(this.c1);
+            this.Controls.Add(this.b4);
+            this.Controls.Add(this.b3);
+            this.Controls.Add(this.b2);
+            this.Controls.Add(this.b1);
+            this.Controls.Add(this.a4);
+            this.Controls.Add(this.a3);
+            this.Controls.Add(this.a2);
+            this.Controls.Add(this.a1);
             this.Controls.Add(this.pinkButton);
             this.Controls.Add(this.yellowButton);
             this.Controls.Add(this.whiteButton);
@@ -652,7 +1038,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -705,11 +1090,46 @@
         private System.Windows.Forms.Button whiteButton;
         private System.Windows.Forms.Button yellowButton;
         private System.Windows.Forms.Button pinkButton;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label a1;
+        private System.Windows.Forms.Label a2;
+        private System.Windows.Forms.Label a4;
+        private System.Windows.Forms.Label a3;
+        private System.Windows.Forms.Label b4;
+        private System.Windows.Forms.Label b3;
+        private System.Windows.Forms.Label b2;
+        private System.Windows.Forms.Label b1;
+        private System.Windows.Forms.Label c4;
+        private System.Windows.Forms.Label c3;
+        private System.Windows.Forms.Label c2;
+        private System.Windows.Forms.Label c1;
+        private System.Windows.Forms.Label d4;
+        private System.Windows.Forms.Label d3;
+        private System.Windows.Forms.Label d2;
+        private System.Windows.Forms.Label d1;
+        private System.Windows.Forms.Label e4;
+        private System.Windows.Forms.Label e3;
+        private System.Windows.Forms.Label e2;
+        private System.Windows.Forms.Label e1;
+        private System.Windows.Forms.Label f4;
+        private System.Windows.Forms.Label f3;
+        private System.Windows.Forms.Label f2;
+        private System.Windows.Forms.Label f1;
+        private System.Windows.Forms.Label g4;
+        private System.Windows.Forms.Label g3;
+        private System.Windows.Forms.Label g2;
+        private System.Windows.Forms.Label g1;
+        private System.Windows.Forms.Label h4;
+        private System.Windows.Forms.Label h3;
+        private System.Windows.Forms.Label h2;
+        private System.Windows.Forms.Label h1;
+        private System.Windows.Forms.Label i4;
+        private System.Windows.Forms.Label i3;
+        private System.Windows.Forms.Label i2;
+        private System.Windows.Forms.Label i1;
+        private System.Windows.Forms.Label j4;
+        private System.Windows.Forms.Label j3;
+        private System.Windows.Forms.Label j2;
+        private System.Windows.Forms.Label j1;
     }
 }
 
