@@ -585,7 +585,7 @@
             // 
             // a1
             // 
-            this.a1.BackColor = System.Drawing.SystemColors.Control;
+            this.a1.BackColor = System.Drawing.SystemColors.Desktop;
             this.a1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.a1.Location = new System.Drawing.Point(220, 30);
             this.a1.Name = "a1";
@@ -594,7 +594,7 @@
             // 
             // a2
             // 
-            this.a2.BackColor = System.Drawing.SystemColors.Control;
+            this.a2.BackColor = System.Drawing.SystemColors.Desktop;
             this.a2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.a2.Location = new System.Drawing.Point(237, 30);
             this.a2.Name = "a2";
@@ -603,7 +603,7 @@
             // 
             // a4
             // 
-            this.a4.BackColor = System.Drawing.SystemColors.Control;
+            this.a4.BackColor = System.Drawing.SystemColors.Desktop;
             this.a4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.a4.Location = new System.Drawing.Point(237, 47);
             this.a4.Name = "a4";
@@ -612,7 +612,7 @@
             // 
             // a3
             // 
-            this.a3.BackColor = System.Drawing.SystemColors.Control;
+            this.a3.BackColor = System.Drawing.SystemColors.Desktop;
             this.a3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.a3.Location = new System.Drawing.Point(220, 47);
             this.a3.Name = "a3";
@@ -621,7 +621,7 @@
             // 
             // b4
             // 
-            this.b4.BackColor = System.Drawing.SystemColors.Control;
+            this.b4.BackColor = System.Drawing.SystemColors.Desktop;
             this.b4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.b4.Location = new System.Drawing.Point(237, 97);
             this.b4.Name = "b4";
@@ -630,7 +630,7 @@
             // 
             // b3
             // 
-            this.b3.BackColor = System.Drawing.SystemColors.Control;
+            this.b3.BackColor = System.Drawing.SystemColors.Desktop;
             this.b3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.b3.Location = new System.Drawing.Point(220, 97);
             this.b3.Name = "b3";
@@ -639,7 +639,7 @@
             // 
             // b2
             // 
-            this.b2.BackColor = System.Drawing.SystemColors.Control;
+            this.b2.BackColor = System.Drawing.SystemColors.Desktop;
             this.b2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.b2.Location = new System.Drawing.Point(237, 80);
             this.b2.Name = "b2";
@@ -648,7 +648,7 @@
             // 
             // b1
             // 
-            this.b1.BackColor = System.Drawing.SystemColors.Control;
+            this.b1.BackColor = System.Drawing.SystemColors.Desktop;
             this.b1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.b1.Location = new System.Drawing.Point(220, 80);
             this.b1.Name = "b1";
@@ -657,7 +657,7 @@
             // 
             // c4
             // 
-            this.c4.BackColor = System.Drawing.SystemColors.Control;
+            this.c4.BackColor = System.Drawing.SystemColors.Desktop;
             this.c4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.c4.Location = new System.Drawing.Point(237, 150);
             this.c4.Name = "c4";
@@ -666,7 +666,7 @@
             // 
             // c3
             // 
-            this.c3.BackColor = System.Drawing.SystemColors.Control;
+            this.c3.BackColor = System.Drawing.SystemColors.Desktop;
             this.c3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.c3.Location = new System.Drawing.Point(220, 150);
             this.c3.Name = "c3";
@@ -675,7 +675,7 @@
             // 
             // c2
             // 
-            this.c2.BackColor = System.Drawing.SystemColors.Control;
+            this.c2.BackColor = System.Drawing.SystemColors.Desktop;
             this.c2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.c2.Location = new System.Drawing.Point(237, 133);
             this.c2.Name = "c2";
@@ -684,7 +684,7 @@
             // 
             // c1
             // 
-            this.c1.BackColor = System.Drawing.SystemColors.Control;
+            this.c1.BackColor = System.Drawing.SystemColors.Desktop;
             this.c1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.c1.Location = new System.Drawing.Point(220, 133);
             this.c1.Name = "c1";
@@ -693,7 +693,7 @@
             // 
             // d4
             // 
-            this.d4.BackColor = System.Drawing.SystemColors.Control;
+            this.d4.BackColor = System.Drawing.SystemColors.Desktop;
             this.d4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.d4.Location = new System.Drawing.Point(237, 197);
             this.d4.Name = "d4";
@@ -702,7 +702,7 @@
             // 
             // d3
             // 
-            this.d3.BackColor = System.Drawing.SystemColors.Control;
+            this.d3.BackColor = System.Drawing.SystemColors.Desktop;
             this.d3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.d3.Location = new System.Drawing.Point(220, 197);
             this.d3.Name = "d3";
@@ -711,7 +711,7 @@
             // 
             // d2
             // 
-            this.d2.BackColor = System.Drawing.SystemColors.Control;
+            this.d2.BackColor = System.Drawing.SystemColors.Desktop;
             this.d2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.d2.Location = new System.Drawing.Point(237, 180);
             this.d2.Name = "d2";
@@ -720,7 +720,7 @@
             // 
             // d1
             // 
-            this.d1.BackColor = System.Drawing.SystemColors.Control;
+            this.d1.BackColor = System.Drawing.SystemColors.Desktop;
             this.d1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.d1.Location = new System.Drawing.Point(220, 180);
             this.d1.Name = "d1";
@@ -729,7 +729,7 @@
             // 
             // e4
             // 
-            this.e4.BackColor = System.Drawing.SystemColors.Control;
+            this.e4.BackColor = System.Drawing.SystemColors.Desktop;
             this.e4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.e4.Location = new System.Drawing.Point(237, 247);
             this.e4.Name = "e4";
@@ -738,7 +738,7 @@
             // 
             // e3
             // 
-            this.e3.BackColor = System.Drawing.SystemColors.Control;
+            this.e3.BackColor = System.Drawing.SystemColors.Desktop;
             this.e3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.e3.Location = new System.Drawing.Point(220, 247);
             this.e3.Name = "e3";
@@ -747,7 +747,7 @@
             // 
             // e2
             // 
-            this.e2.BackColor = System.Drawing.SystemColors.Control;
+            this.e2.BackColor = System.Drawing.SystemColors.Desktop;
             this.e2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.e2.Location = new System.Drawing.Point(237, 230);
             this.e2.Name = "e2";
@@ -756,7 +756,7 @@
             // 
             // e1
             // 
-            this.e1.BackColor = System.Drawing.SystemColors.Control;
+            this.e1.BackColor = System.Drawing.SystemColors.Desktop;
             this.e1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.e1.Location = new System.Drawing.Point(220, 230);
             this.e1.Name = "e1";
@@ -765,7 +765,7 @@
             // 
             // f4
             // 
-            this.f4.BackColor = System.Drawing.SystemColors.Control;
+            this.f4.BackColor = System.Drawing.SystemColors.Desktop;
             this.f4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f4.Location = new System.Drawing.Point(237, 297);
             this.f4.Name = "f4";
@@ -774,7 +774,7 @@
             // 
             // f3
             // 
-            this.f3.BackColor = System.Drawing.SystemColors.Control;
+            this.f3.BackColor = System.Drawing.SystemColors.Desktop;
             this.f3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f3.Location = new System.Drawing.Point(220, 297);
             this.f3.Name = "f3";
@@ -783,7 +783,7 @@
             // 
             // f2
             // 
-            this.f2.BackColor = System.Drawing.SystemColors.Control;
+            this.f2.BackColor = System.Drawing.SystemColors.Desktop;
             this.f2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f2.Location = new System.Drawing.Point(237, 280);
             this.f2.Name = "f2";
@@ -792,7 +792,7 @@
             // 
             // f1
             // 
-            this.f1.BackColor = System.Drawing.SystemColors.Control;
+            this.f1.BackColor = System.Drawing.SystemColors.Desktop;
             this.f1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f1.Location = new System.Drawing.Point(220, 280);
             this.f1.Name = "f1";
@@ -801,7 +801,7 @@
             // 
             // g4
             // 
-            this.g4.BackColor = System.Drawing.SystemColors.Control;
+            this.g4.BackColor = System.Drawing.SystemColors.Desktop;
             this.g4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.g4.Location = new System.Drawing.Point(237, 348);
             this.g4.Name = "g4";
@@ -810,7 +810,7 @@
             // 
             // g3
             // 
-            this.g3.BackColor = System.Drawing.SystemColors.Control;
+            this.g3.BackColor = System.Drawing.SystemColors.Desktop;
             this.g3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.g3.Location = new System.Drawing.Point(220, 348);
             this.g3.Name = "g3";
@@ -819,7 +819,7 @@
             // 
             // g2
             // 
-            this.g2.BackColor = System.Drawing.SystemColors.Control;
+            this.g2.BackColor = System.Drawing.SystemColors.Desktop;
             this.g2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.g2.Location = new System.Drawing.Point(237, 331);
             this.g2.Name = "g2";
@@ -828,7 +828,7 @@
             // 
             // g1
             // 
-            this.g1.BackColor = System.Drawing.SystemColors.Control;
+            this.g1.BackColor = System.Drawing.SystemColors.Desktop;
             this.g1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.g1.Location = new System.Drawing.Point(220, 331);
             this.g1.Name = "g1";
@@ -837,7 +837,7 @@
             // 
             // h4
             // 
-            this.h4.BackColor = System.Drawing.SystemColors.Control;
+            this.h4.BackColor = System.Drawing.SystemColors.Desktop;
             this.h4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.h4.Location = new System.Drawing.Point(237, 397);
             this.h4.Name = "h4";
@@ -846,7 +846,7 @@
             // 
             // h3
             // 
-            this.h3.BackColor = System.Drawing.SystemColors.Control;
+            this.h3.BackColor = System.Drawing.SystemColors.Desktop;
             this.h3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.h3.Location = new System.Drawing.Point(220, 397);
             this.h3.Name = "h3";
@@ -855,7 +855,7 @@
             // 
             // h2
             // 
-            this.h2.BackColor = System.Drawing.SystemColors.Control;
+            this.h2.BackColor = System.Drawing.SystemColors.Desktop;
             this.h2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.h2.Location = new System.Drawing.Point(237, 380);
             this.h2.Name = "h2";
@@ -864,7 +864,7 @@
             // 
             // h1
             // 
-            this.h1.BackColor = System.Drawing.SystemColors.Control;
+            this.h1.BackColor = System.Drawing.SystemColors.Desktop;
             this.h1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.h1.Location = new System.Drawing.Point(220, 380);
             this.h1.Name = "h1";
@@ -873,7 +873,7 @@
             // 
             // i4
             // 
-            this.i4.BackColor = System.Drawing.SystemColors.Control;
+            this.i4.BackColor = System.Drawing.SystemColors.Desktop;
             this.i4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.i4.Location = new System.Drawing.Point(237, 447);
             this.i4.Name = "i4";
@@ -882,7 +882,7 @@
             // 
             // i3
             // 
-            this.i3.BackColor = System.Drawing.SystemColors.Control;
+            this.i3.BackColor = System.Drawing.SystemColors.Desktop;
             this.i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.i3.Location = new System.Drawing.Point(220, 447);
             this.i3.Name = "i3";
@@ -891,7 +891,7 @@
             // 
             // i2
             // 
-            this.i2.BackColor = System.Drawing.SystemColors.Control;
+            this.i2.BackColor = System.Drawing.SystemColors.Desktop;
             this.i2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.i2.Location = new System.Drawing.Point(237, 430);
             this.i2.Name = "i2";
@@ -900,7 +900,7 @@
             // 
             // i1
             // 
-            this.i1.BackColor = System.Drawing.SystemColors.Control;
+            this.i1.BackColor = System.Drawing.SystemColors.Desktop;
             this.i1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.i1.Location = new System.Drawing.Point(220, 430);
             this.i1.Name = "i1";
@@ -909,7 +909,7 @@
             // 
             // j4
             // 
-            this.j4.BackColor = System.Drawing.SystemColors.Control;
+            this.j4.BackColor = System.Drawing.SystemColors.Desktop;
             this.j4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.j4.Location = new System.Drawing.Point(237, 497);
             this.j4.Name = "j4";
@@ -918,7 +918,7 @@
             // 
             // j3
             // 
-            this.j3.BackColor = System.Drawing.SystemColors.Control;
+            this.j3.BackColor = System.Drawing.SystemColors.Desktop;
             this.j3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.j3.Location = new System.Drawing.Point(220, 497);
             this.j3.Name = "j3";
@@ -927,7 +927,7 @@
             // 
             // j2
             // 
-            this.j2.BackColor = System.Drawing.SystemColors.Control;
+            this.j2.BackColor = System.Drawing.SystemColors.Desktop;
             this.j2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.j2.Location = new System.Drawing.Point(237, 480);
             this.j2.Name = "j2";
@@ -936,7 +936,7 @@
             // 
             // j1
             // 
-            this.j1.BackColor = System.Drawing.SystemColors.Control;
+            this.j1.BackColor = System.Drawing.SystemColors.Desktop;
             this.j1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.j1.Location = new System.Drawing.Point(220, 480);
             this.j1.Name = "j1";
